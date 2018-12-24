@@ -1,0 +1,13 @@
+.agileits_service_grid_btm_left2 ul li{   
+    list-style-type: disc;
+}
+.agileits_service_grid_btm_left2 ul{   
+    padding-left: 18px;
+}
+
+.sprite.Affordable { background-position: 0 -4px; } 
+.sprite.ConsumerInsight { background-position: 0 -43px; } 
+.sprite.ConsumerSentiments { background-position: 0 -79px; } 
+.sprite.CTA { background-position: 0 -118px; } 
+.sprite.EaseOfUse { background-position: 0 -157px; } 
+.sprite.SocialMediaI { background-position: 0 -199px; } 

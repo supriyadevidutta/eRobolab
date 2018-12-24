@@ -1,0 +1,36 @@
+{
+  "title": "Business",
+  "description": "Building your bot is easy and can be used on your Website without any coding knowledge, just start with one of our templates",
+  "businessDetails": [
+    {
+      "name": "Real Estate",
+      "description": "24*7 virtual assistance to identify your potential customers, Assist to find their dream homes",
+      "icon": "RealEstate"
+    },
+    {
+      "name": "Travel and Hospitality",
+      "description": "Taking vacation with Family can be overwhelming. Guide your visitors to a hassle free itinerary planning.",
+      "icon": "Travel"
+    },
+    {
+      "name": "Food & Restaurants",
+      "description": "Provide assistance to your customers to select the best of the gourmet from your menu",
+      "icon": "Food"
+    },
+    {
+      "name": "Personal Services",
+      "description": "Provide a platform to individual service providers to compete with market leaders",
+      "icon": "PersonalService"
+    },
+    {
+      "name": "Education",
+      "description": "Enable online booking through human like conversational interface",
+      "icon": "Education"
+    },
+    {
+      "name": "Medical",
+      "description": "Emergency can come any time. Provide urgent attention to your patients",
+      "icon": "Medical"
+    }
+  ]
+}

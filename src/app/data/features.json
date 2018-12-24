@@ -1,0 +1,42 @@
+{
+  "title": "Features",
+  "description": "",
+  "featureDetails": [
+    {
+      "image": "",
+      "title": "Affordable",
+      "icon": "Affordable",
+      "description": ["Pocket friendly","1 $ Product for Dollar Shopkeepers","Flexible Pricing","pay as you go"]
+    },
+    {
+      "image": "",
+      "title": "Ease of Use",
+      "icon": "EaseOfUse",
+      "description": ["Specially Designed for Non-Tech Business Owners","Get ready in 7 Minutes","Super user friendly DIY BOT"]
+    },
+    {
+      "image": "",
+      "title": "Social Media Integration",
+      "icon": "SocialMediaI",
+      "description": ["Omni Channel","Integrates with Social Media to provide seamless user experience for consumers"]  
+    },
+    {
+      "image": "",
+      "title": "Well defined CTA",
+      "icon": "CTA",
+      "description": ["Lead generation","Connect to Consumer 24 by 7","Data driven call to Actions","Data driven actions"]
+    },
+    {
+      "image": "",
+      "title": "Consumer Insights",
+      "icon": "ConsumerInsight",
+      "description": ["Understand and respond consumer queries better with deep machine learning","Learn from user behavior","Cognitive understanding of data"]
+    },
+    {
+      "image": "",
+      "title": "Consumer Sentiments",
+      "icon": "ConsumerSentiments",
+      "description": ["Understand consumer sentiments","Assist to reciprocate appropriately to consumer sentiments"]  
+    }
+  ]
+}

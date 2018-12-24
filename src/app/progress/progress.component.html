@@ -1,0 +1,8 @@
+<div class="circle">
+  <svg class="progress__svg" width="180" height="180" viewBox="0 0 120 120">
+    <circle class="progress__meter" cx="60" cy="60" [attr.r]="radius" stroke-width="11" />
+    <circle class="progress__value" [style.strokeDasharray]="circumference" [style.strokeDashoffset]="dashoffset" cx="60" cy="60"
+            [attr.r]="radius" stroke-width="11" [ngStyle]="{'stroke':circleColor}"  />
+  </svg>
+  <span class="progress__value-text">{{value}}%</span>
+</div>

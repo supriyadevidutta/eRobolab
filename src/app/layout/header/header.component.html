@@ -1,0 +1,87 @@
+<!-- banner -->
+<div class="main_agileits">
+  <div class="agile_wthree_nav">
+    <nav class="navbar navbar-default">
+      <div class="navbar-header navbar-left" style="margin-top: 15px;">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div>
+          <span class="pull-left">
+            <img src="/assets/images/growthletLogo.png" class="growthletLogo" />
+          </span>
+          <span class="logo-container">
+            <h1 class="logo-upper">Growth</h1>
+            <h3 class="logo-bottom">Assist</h3>
+          </span>
+        </div>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+        <nav class="link-effect-8" id="link-effect-8">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a [ngx-scroll-to]="'home'">Home</a>
+            </li>
+            <li>
+              <a [ngx-scroll-to]="'about'" class="scroll">About</a>
+            </li>
+            <li>
+              <a [ngx-scroll-to]="'services'" class="scroll">Features</a>
+            </li>            
+            <li>
+              <a [ngx-scroll-to]="'team'" class="scroll">Business</a>
+            </li>
+            <li>
+              <a [ngx-scroll-to]="'skills'" class="scroll">Skills</a>
+            </li>
+            <li>
+              <a [ngx-scroll-to]="'pricing'" class="scroll">Pricing</a>
+            </li>
+   <!--         <li>
+              <a href="#/blog-list" class="scroll">Blogs</a>
+            </li> -->
+            <li>
+              <a [ngx-scroll-to]="'contactUs'" class="scroll">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- <div class="agile_search">
+        <! cd-search -->
+      <!-- <div class="cd-main-header">
+          <ul class="cd-header-buttons">
+            <li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+          </ul> -->
+      <!-- cd-header-buttons -->
+      <!-- </div>
+        <div id="cd-search" class="cd-search agileinfo">
+          <form action="#" method="post">
+            <input name="Search" type="search" placeholder="Click enter after typing...">
+          </form>
+        </div> -->
+      <!-- //cd-search -->
+      <!-- </div> -->
+    </nav>
+  </div>
+ 
+  <slideshow [height]="height" [autoPlay]="true" [autoPlayInterval]="5000" [showArrows]="true" [imageUrls]="homeDetails['BannerDetails']"
+    [lazyLoad]="homeDetails['BannerDetails']?.length > 1" [autoPlayWaitForLazyLoad]="true" [backgroundSize]="'cover'" [showDots]="true"
+    [showCaptions]="true" [captionBackground]="'transparent'">
+  </slideshow>
+  <div class="s1">
+    <div class="w3-button">
+      <div class="w3ls-button">
+        <a href="#" class="hvr-shutter-out-vertical">Read More</a>
+      </div>
+      <div class="w3l-button">
+        <a [ngx-scroll-to]="'contactUs'" class="hvr-shutter-out-vertical">Mail Us</a>
+      </div>
+      <!-- <div class="clearfix"></div> -->
+    </div>
+  </div>
+</div>
+<!-- /banner -->

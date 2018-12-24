@@ -1,0 +1,38 @@
+<!-- pricing -->
+<div id="pricing" class="pricing">
+  <div class="container">
+    <div class="tittle-agileinfo">
+      <h3 class="w3_head w3_head1">{{priceInfo['title']}}</h3>
+      <p class="toppara">{{priceInfo['description']}}</p>
+    </div>
+    <div >
+    <div id="pricing" class="owl-carousel owl-theme">
+      <div class="test-review" *ngFor="let priceDetail of priceInfo['priceDetails']">
+        <!-- <p>from</p> -->
+        <!-- <h4><sup>{{priceDetail['currency']}}</sup>{{priceDetail['price']}}</h4> -->
+        <h4>         
+          <span *ngFor="let pricingInfo of priceDetail['pricingInfo']">
+            <sup class="font-20">{{priceDetail['currency']}}</sup>
+            <span class="price">{{pricingInfo['price']}}</span>
+            <span class="font-20"> {{pricingInfo['limit']}}</span>
+          </span>
+        </h4>
+        <h5 [innerHTML]="priceDetail['title']"></h5>
+        <div>
+        <ul class="innerpara" *ngFor="let description of priceDetail['description']">
+          <li>{{description}}</li>
+        </ul>
+        <ul *ngFor="let excludedFeature of priceDetail['excludedFeatures']">
+          <li class="excluded-feature">{{excludedFeature}}</li>
+        </ul>
+      </div>
+        <div class="startpricing">
+          <a class="popup-with-zoom-anim" [ngx-scroll-to]="'contactUs'">Get started</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<!--pricing-->
+

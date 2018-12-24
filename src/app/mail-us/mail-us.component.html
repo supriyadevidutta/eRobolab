@@ -1,0 +1,141 @@
+<!-- subscribe -->
+<div class="subscribe">
+  <div class="container">
+    <div class="tittle-agileinfo">
+      <h3 class="w3_head w3_head1">Subscribe</h3>
+      <p class="toppara">Growth Assist on a mission to give people the platform they need to pioneer the conversational revolution. It can’t
+        happen without your help. We’re stronger together. Join the revolution.</p>
+    </div>
+    <div class="w3-agile-subscribe">
+      <form action="#" method="post">
+        <input type="email" id="mc4wp_email" name="EMAIL" placeholder="Enter your email here" required="">
+        <input type="submit" [ngx-scroll-to]="'contactUs'" value="Subscribe">
+      </form>
+      <h5>OR</h5>
+      <div class="agileinfo-social-grids">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-vk"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- //subscribe -->
+<!-- contact -->
+<div id="contactUs" class="contact">
+  <div class="container">
+    <div class="tittle-agileinfo">
+      <h3 class="w3_head w3_head1">Contact Us </h3>
+      <p class="toppara">We're excited about building bots for large or promising companies/projects. We strive to develop only the best chatbots
+        and we always overdeliver. We'll provide you with a free quote within 48 hours. You have no obligation to do business
+        with us.</p>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.66007011256!2d77.35073202870939!3d12.954517013531348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1536410909034" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="contactimain">
+      <div class="col-md-6 contact-left">
+        <!-- <form #contactForm="ngForm" (ngSubmit)="submitContactDetails(contactForm)">
+          <div class="wthree_contact_left_grid">
+            <input type="text" value="Name"  name="Name" placeholder="Name" [(ngModel)]="Name" required>
+            <input type="email" value="Eame" name="Email" placeholder="Email" [(ngModel)]="Email" required>
+            <input type="text" value="Telephone" name="Telephone" placeholder="Telephone" [(ngModel)]="Telephone" required>
+            <! <input type="text" name="Subject" placeholder="Subject" required=""> -->
+        <!-- <textarea name="Message" value="Message" placeholder="Message..." [(ngModel)]="Message" required></textarea>
+            <input type="submit" name="Submit" [disabled]="!contactForm.valid">
+            <span class="response-message" *ngIf="responseMessage">Thank you for contacting us, Our Team will respond you soon</span>
+          </div>
+          <div class="clearfix"> </div> -->
+        <!-- </form> -->
+        <form #contactForm="ngForm" (ngSubmit)="submitContactDetails(contactForm)">
+          <mat-form-field>
+            <mat-label>Name</mat-label>
+            <input matInput placeholder="Name" value="name" name="name" type="text" size="18" alt="Name" [(ngModel)]="name" required>
+          </mat-form-field>
+          <mat-form-field>
+              <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                  Please enter a valid email address
+                </mat-error>
+            <input matInput placeholder="Email" [formControl]="emailFormControl" [errorStateMatcher]="matcher" required>
+            
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Telephone</mat-label>
+            <input matInput placeholder="Telephone" value="telephone" name="telephone" type="text" size="11" alt="telephone" [(ngModel)]="telephone"
+              required>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Subject</mat-label>
+            <input matInput placeholder="Subject" value="subject" name="subject" type="subject" alt="Subject" [(ngModel)]="subject" required>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Message</mat-label>
+            <textarea matInput placeholder="Message" value="message" name="message" alt="Message" [(ngModel)]="message" required></textarea>
+          </mat-form-field>
+          <button mat-raised-button color="primary" [disabled]="!contactForm.valid || emailFormControl.hasError('email') || emailFormControl.hasError('required')" type="submit" name="Submit" alt="sign in">Submit</button>
+          <span class="response-message" *ngIf="responseMessage">Thank you for contacting us, Our Team will respond you soon</span>
+        </form>
+      </div>
+      <div class="col-md-6 contact-right">
+        <div class="agile_info_mail_img_info">
+          <div class="address-grid">
+            <h4>Contact
+              <span>Info</span>
+            </h4>
+            <p class="contacttext">We are here to respond to any questions you may have. Reach out to us and we will respond as soon as we can.</p>
+            <div class="mail-agileits-w3layouts">
+              <!-- <div class="contacticon">
+                <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+              </div>
+              <div class="contact-right-inner">
+                <p>Telephone </p><span>+1 (100)222-23-33</span>
+              </div>
+              <div class="clearfix"> </div> -->
+            </div>
+            <div class="mail-agileits-w3layouts">
+              <div class="contacticon">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+              </div>
+              <div class="contact-right-inner">
+                <p>Mail </p>
+                <a href="mailto:contactus@growthassist.ai">contactus@growthassist.ai</a>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="mail-agileits-w3layouts"></div>
+            <div class="mail-agileits-w3layouts">
+              <div class="contacticon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div class="contact-right-inner">
+                <p>Location</p>
+                <span>C.V.Raman Nagar</span>
+              </div>
+              <div class="clearfix"> </div>
+            </div>
+            <div class="mail-agileits-w3layouts"></div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</div>
+<!-- //contact -->

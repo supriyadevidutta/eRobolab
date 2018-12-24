@@ -1,0 +1,25 @@
+<!-- services -->
+<div class="services" id="services">
+  <div class="container">
+    <h3 class="w3_head w3_head1">{{features['title']}}</h3>
+    <p class="toppara">{{features['description']}}</p>
+ 
+  <!-- <div class="agileits_services_grids_bottom"> -->
+    <div id="features" class="owl-carousel owl-theme">
+      <div style="padding: 2px 5px;" *ngFor="let featureDetail of features['featureDetails']">
+        <div class="agileits_service_grid_btm_left1">          
+          <div class="agileits_service_grid_btm_left2" id="{{featureDetail['icon']}}">
+            <h5 class="pull-left">{{featureDetail['title']}}</h5>
+            <span class='sprite' [ngClass]="featureDetail['icon']"></span>
+            <ul class="clear-both" *ngFor="let description of featureDetail['description']">
+              <li>{{description}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="clearfix"> </div> -->
+    </div>
+  </div>
+  <!-- </div> -->
+</div>
+<!-- //services -->

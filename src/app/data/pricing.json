@@ -1,0 +1,34 @@
+{
+  "title": "Pricing list",
+  "description": "Growth Assist is currently in open beta and is completely free for you to try. There are no limitations and no strings attached! We want to make sure everybody can try the platform and provide us with as much feedback as possible before any payment needs to be made.",
+  "priceDetails": [
+    {
+        "title": "Bronze",
+        "pricingInfo": [
+            {
+                "price" : "1",
+                "limit" : "per Month / "
+            },{
+                "price" : "10",
+                "limit":"per Year"
+            }
+        ],
+        "currency": "$",
+        "description": ["Information Retrieval","Natural Language Processing","Bot Analytics","Deep Learning","Self Learning","Lead Generation"],
+        "excludedFeatures": ["Conversational UI","Social Media – Sentiment Analytics"]
+    },{
+        "title": "Silver",
+        "pricingInfo": [
+            {
+                "price" : "3",
+                "limit" : "per Month / "
+            },{
+                "price" : "30",
+                "limit":"per Year"
+            }
+        ],
+        "currency": "$",
+        "description": ["Information Retrieval","Natural Language Processing","Bot Analytics","Deep Learning","Self Learning","Lead Generation","Conversational UI","Social Media – Sentiment Analytics"]
+    }
+    ]
+}

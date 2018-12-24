@@ -1,0 +1,27 @@
+.growthletLogo{
+    width: 72px;
+    height: 72px;
+}
+
+@media only screen and (min-width:760px) and (max-width: 960px){
+  #bs-example-navbar-collapse-1{
+      float: left !important;
+  }
+}
+
+.logo-container{
+    text-transform: uppercase;
+    color: #fff; 
+    text-shadow: 1px 1px 2px rgba(23, 22, 22, 0.66);
+    margin-left: 15px;
+    margin-top: 4px
+}
+
+.logo-upper{
+    margin:0px;display: inline
+}
+
+.logo-bottom{
+    letter-spacing: 15px;
+    padding-left:3.9em
+}

@@ -1,0 +1,14 @@
+{
+    "BannerDetails": [
+    {
+      "url": "/assets/images/banner2.jpg",
+      "caption": "<h3>BOT for Small Business</h3><p>Personal Assistant aka. BOT designed specially to suit your needs.</p><p>Easy on Pocket and No Technical Hassle.</p><p>Lets get started now. All it takes is just 7 mins!</p>"
+    },{
+      "url": "/assets/images/banner3.jpg",
+      "caption": "<h3>Multi-channel Customer Experience</h3><p>Grow your business by staying connected to your customers 24 * 7 through multiple messengers </p><p>on your website and social media accounts. Easy way to convert leads into Customers.</p><p>Get your BOT launched in 4 Steps !!!</p>"
+    },{
+      "url": "/assets/images/banner4.jpg",
+      "caption": "<h3>Know your Customer</h3><p>Understand what your customer is looking for.</p><p>Know what’s HOT and what’s not from your business.</p><p>Insightful dashboard on what your customer is looking for.</p>"
+    }
+]
+}

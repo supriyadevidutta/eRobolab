@@ -1,0 +1,26 @@
+ul li{
+    list-style-type: disc;
+}
+ul{
+    padding-left: 18px;
+}
+.font-20{
+    font-size: 18px;
+}
+.price{
+    font-size: 30px;
+    font-weight: bold
+}
+.test-review h4{
+    margin-top: 0px !important; 
+}
+/* .owl-item {
+  display: table-cell !important;
+} */
+/* .owl-carousel .owl-item{
+    height: 100% !important;
+} */
+.excluded-feature{
+    text-decoration: line-through;
+    color: darkgray;
+}

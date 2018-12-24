@@ -1,0 +1,85 @@
+.side-social-icon {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    background-color: #587ABC;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1000;
+} 
+
+.side-social-icon:hover .expanded-social-container {
+    display: block;
+}
+
+.expanded-social-container{
+    display: none;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    width: 60px;
+}
+
+.share-icon {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;    
+    cursor: pointer;
+ }
+
+.expanded-social-icon {
+    background-color: #587ABC;
+    border-radius: 5px;
+    border-top-right-radius: 3px;
+    width: 50px;
+}
+
+.expanded-social-icon i {
+    font-size: 1em;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 0em 0;
+    border-radius: 50%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    border:  1px solid #FFF;
+    margin: 5px;
+    /* display: block; */
+}
+
+.expanded-social-icon i:hover {
+    background:#5CBA70;
+    border-color:#5CBA70;
+    color: #fff;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+}
+
+ .expanded-social-icon:before {
+    position: absolute;
+    display: inline-block;
+    border-right: 8px solid #587ABC;
+    border-bottom: 8px solid transparent;
+    border-right-color: #587ABC;
+    content: '';
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    right: 3px;
+    top: 0px;
+}

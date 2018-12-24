@@ -1,0 +1,45 @@
+{
+    "title": "Our Skills",
+    "description": "The difference between Growth Assist and the other platform is in its architecture and its philosophy.",
+    "skillDetails": {
+        "firstRowDetails": [
+            {
+                "value": "78",
+                "color": "#ba3951",
+                "title": "Machine Learning"
+            },
+            {
+                "value": "60",
+                "color": "#FF7F00",
+                "title": "Deep Learning"
+            },
+            {
+                "value": "85",
+                "color": "#FFFF00",
+                "title": "Information Retrieval"
+            },
+            {
+                "value": "70",
+                "color": "#53d769",
+                "title": "Speech Processing"
+            }
+        ],
+        "secondRowDetails": [
+            {
+                "value": "90",
+                "color": "#99ffcc",
+                "title": "Natural Language Processing"
+            },
+            {
+                "value": "68",
+                "color": "#147efb",
+                "title": "Cognitive Computing"
+            },
+            {
+                "value": "85",
+                "color": "#9400D3",
+                "title": "Bot Analytics"
+            }
+        ]
+    }
+}
